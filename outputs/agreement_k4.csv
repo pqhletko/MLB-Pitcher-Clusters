@@ -1,0 +1,10 @@
+k,comparison,method,pair,ari
+4,representation,kmeans,arsenal vs results,0.03697959508480503
+4,representation,kmeans,arsenal vs combined,0.3638943900693467
+4,representation,kmeans,results vs combined,0.18437495761556402
+4,representation,gmm,arsenal vs results,0.001450065384633833
+4,representation,gmm,arsenal vs combined,0.5133958453936842
+4,representation,gmm,results vs combined,-0.004474823119449113
+4,method,kmeans vs gmm,arsenal,0.07777628517332193
+4,method,kmeans vs gmm,results,0.2325001903739231
+4,method,kmeans vs gmm,combined,0.042082872033758996

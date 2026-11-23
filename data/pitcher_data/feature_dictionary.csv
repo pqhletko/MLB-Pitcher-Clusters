@@ -1,0 +1,26 @@
+feature,meaning,unit,aggregation,baseline
+usage_FF,Mean seasonal share of pitches of this type; other combines remaining types,fraction,PA-weighted seasonal share,True
+usage_SI,Mean seasonal share of pitches of this type; other combines remaining types,fraction,PA-weighted seasonal share,True
+usage_FC,Mean seasonal share of pitches of this type; other combines remaining types,fraction,PA-weighted seasonal share,True
+usage_SL,Mean seasonal share of pitches of this type; other combines remaining types,fraction,PA-weighted seasonal share,True
+usage_ST,Mean seasonal share of pitches of this type; other combines remaining types,fraction,PA-weighted seasonal share,True
+usage_CU,Mean seasonal share of pitches of this type; other combines remaining types,fraction,PA-weighted seasonal share,True
+usage_CH,Mean seasonal share of pitches of this type; other combines remaining types,fraction,PA-weighted seasonal share,True
+usage_FS,Mean seasonal share of pitches of this type; other combines remaining types,fraction,PA-weighted seasonal share,True
+usage_other,Mean seasonal share of pitches of this type; other combines remaining types,fraction,PA-weighted seasonal share,True
+arsenal_entropy,Mean seasonal Shannon entropy of full pitch mix,nats,PA-weighted over shared usable seasons; PA coverage recorded,True
+velo_avg,Usage-weighted pitch velocity within season,mph,PA-weighted over shared usable seasons; PA coverage recorded,True
+spin_avg,Usage-weighted pitch spin within season,rpm,PA-weighted over shared usable seasons; PA coverage recorded,True
+res_k_percent,100 * pooled strikeouts / pooled batters faced,percentage points,pooled counts,True
+res_bb_percent,100 * pooled walks / pooled batters faced,percentage points,pooled counts,True
+res_est_woba,Expected weighted on-base average allowed,wOBA scale,PA-weighted over shared usable seasons; PA coverage recorded,True
+res_avg_hit_speed,Average exit velocity allowed,mph,PA-weighted over shared usable seasons; PA coverage recorded,True
+res_brl_percent,Barrels as a percentage of batted-ball events,percentage points,PA-weighted over shared usable seasons; PA coverage recorded,True
+fb_velo,Velocity for FF/SI/FC fastball family,mph,PA-weighted over shared usable seasons; PA coverage recorded,False
+fb_spin,Spin for FF/SI/FC fastball family,rpm,PA-weighted over shared usable seasons; PA coverage recorded,False
+velo_gap,"Fastball velocity minus ALL nonfastball velocity, including breaking balls",mph,PA-weighted over shared usable seasons; PA coverage recorded,False
+fb_ivb,Fastball induced vertical break,source movement units; verify raw source,PA-weighted over shared usable seasons; PA coverage recorded,False
+fb_abs_hb,Magnitude of fastball horizontal break; direction discarded,source movement units; verify raw source,PA-weighted over shared usable seasons; PA coverage recorded,False
+brk_ivb,SL/ST/CU induced vertical break,source movement units; verify raw source,PA-weighted over shared usable seasons; PA coverage recorded,False
+brk_abs_hb,Magnitude of SL/ST/CU horizontal break; direction discarded,source movement units; verify raw source,PA-weighted over shared usable seasons; PA coverage recorded,False
+mean_seasonal_arsenal_breadth,Mean number of pitch types with >=5% seasonal usage,mean count,PA-weighted over shared usable seasons; PA coverage recorded,False

@@ -1,0 +1,7 @@
+representation,method,criterion,k,score,min_cluster_n,boundary
+arsenal,kmeans,silhouette,8,0.19159037396277104,10,False
+arsenal,gmm,bic,9,17698.48225323224,11,False
+results,kmeans,silhouette,2,0.2478173145104518,616,True
+results,gmm,bic,2,15129.633228387354,376,False
+combined,kmeans,silhouette,6,0.1407080656597173,10,False
+combined,gmm,bic,6,32281.11487645864,37,False

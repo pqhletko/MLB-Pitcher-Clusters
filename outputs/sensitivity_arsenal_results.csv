@@ -1,0 +1,25 @@
+setting,comparison,method,pair,ari
+coverage_90,representation,kmeans,arsenal vs results,0.023928983387157383
+coverage_90,representation,gmm,arsenal vs results,0.00700149024188189
+strict_100,representation,kmeans,arsenal vs results,0.03613980730053804
+strict_100,representation,gmm,arsenal vs results,0.006591646046062349
+PCA_80,representation,kmeans,arsenal vs results,0.029449442920650503
+PCA_80,representation,gmm,arsenal vs results,0.020162106595260465
+PCA_95,representation,kmeans,arsenal vs results,0.03697959508480503
+PCA_95,representation,gmm,arsenal vs results,0.001450065384633833
+no_PCA,representation,kmeans,arsenal vs results,0.03154326394568659
+no_PCA,representation,gmm,arsenal vs results,0.009657532592539726
+sqrt_shares,representation,kmeans,arsenal vs results,0.028104530426824717
+sqrt_shares,representation,gmm,arsenal vs results,-0.0004301471742859501
+observed_PA_500,representation,kmeans,arsenal vs results,0.05011166803048156
+observed_PA_500,representation,gmm,arsenal vs results,0.012119407127825312
+extended_sample_core,representation,kmeans,arsenal vs results,0.03783457313950958
+extended_sample_core,representation,gmm,arsenal vs results,0.00854757856993597
+extended_features,representation,kmeans,arsenal vs results,0.04071226658772079
+extended_features,representation,gmm,arsenal vs results,-0.004018216942326628
+combined_arsenal_fraction_0.25,representation,kmeans,arsenal vs results,0.03697959508480503
+combined_arsenal_fraction_0.25,representation,gmm,arsenal vs results,0.001450065384633833
+combined_arsenal_fraction_0.50,representation,kmeans,arsenal vs results,0.03697959508480503
+combined_arsenal_fraction_0.50,representation,gmm,arsenal vs results,0.001450065384633833
+combined_arsenal_fraction_0.75,representation,kmeans,arsenal vs results,0.03697959508480503
+combined_arsenal_fraction_0.75,representation,gmm,arsenal vs results,0.001450065384633833

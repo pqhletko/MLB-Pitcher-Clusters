@@ -1,0 +1,159 @@
+{
+  "completed_at_utc": "2026-11-23T15:53:48.372099+00:00",
+  "packages": {
+    "pybaseball": "2.2.7",
+    "pandas": "3.1.1",
+    "numpy": "2.4.6"
+  },
+  "years": [
+    2017,
+    2026
+  ],
+  "minimum_season_PA": 25,
+  "minimum_total_PA": 100,
+  "minimum_contact_BBE": 25,
+  "usage_closure_tolerance_percentage_points": 1.0,
+  "minimum_measurement_usage_coverage": 0.95,
+  "build_tag": "regular-season-coverage95-2026-11-22",
+  "minimum_common_PA_coverage": 0.95,
+  "validation_passed": true,
+  "feature_configuration": {
+    "baseline": {
+      "arsenal": [
+        "usage_FF",
+        "usage_SI",
+        "usage_FC",
+        "usage_SL",
+        "usage_ST",
+        "usage_CU",
+        "usage_CH",
+        "usage_FS",
+        "usage_other",
+        "arsenal_entropy",
+        "velo_avg",
+        "spin_avg"
+      ],
+      "results": [
+        "res_k_percent",
+        "res_bb_percent",
+        "res_est_woba",
+        "res_avg_hit_speed",
+        "res_brl_percent"
+      ],
+      "combined": [
+        "usage_FF",
+        "usage_SI",
+        "usage_FC",
+        "usage_SL",
+        "usage_ST",
+        "usage_CU",
+        "usage_CH",
+        "usage_FS",
+        "usage_other",
+        "arsenal_entropy",
+        "velo_avg",
+        "spin_avg",
+        "res_k_percent",
+        "res_bb_percent",
+        "res_est_woba",
+        "res_avg_hit_speed",
+        "res_brl_percent"
+      ]
+    },
+    "extended_arsenal": [
+      "usage_FF",
+      "usage_SI",
+      "usage_FC",
+      "usage_SL",
+      "usage_ST",
+      "usage_CU",
+      "usage_CH",
+      "usage_FS",
+      "usage_other",
+      "arsenal_entropy",
+      "velo_avg",
+      "spin_avg",
+      "fb_velo",
+      "fb_spin",
+      "velo_gap",
+      "fb_ivb",
+      "fb_abs_hb",
+      "brk_ivb",
+      "brk_abs_hb"
+    ],
+    "baseline_input": "pitcher_features_core_complete.csv",
+    "strict_input": "pitcher_features_strict_complete.csv",
+    "extended_input": "pitcher_features_extended_complete.csv",
+    "minimum_common_PA_coverage": 0.95,
+    "coverage_sensitivity": [
+      0.9,
+      0.95,
+      1.0
+    ],
+    "season_selection": "One shared usable-season mask per pitcher for every baseline representation; >=95% of eligible PA and >=100 observed PA",
+    "regular_season_dates": {
+      "2017": [
+        "2017-04-02",
+        "2017-10-01"
+      ],
+      "2018": [
+        "2018-03-29",
+        "2018-10-01"
+      ],
+      "2019": [
+        "2019-03-20",
+        "2019-09-29"
+      ],
+      "2020": [
+        "2020-07-23",
+        "2020-09-27"
+      ],
+      "2021": [
+        "2021-04-01",
+        "2021-10-03"
+      ],
+      "2022": [
+        "2022-04-07",
+        "2022-10-05"
+      ],
+      "2023": [
+        "2023-03-30",
+        "2023-10-01"
+      ],
+      "2024": [
+        "2024-03-20",
+        "2024-09-30"
+      ],
+      "2025": [
+        "2025-03-18",
+        "2025-09-28"
+      ],
+      "2026": [
+        "2026-03-25",
+        "2026-09-27"
+      ]
+    },
+    "BF_review_tolerance": {
+      "absolute": 2,
+      "relative": 0.005,
+      "rule": "max(absolute, relative * Savant PA) per season"
+    },
+    "excluded_from_baseline": [
+      "role/workload/IDs/WAR",
+      "xERA/xBA/xSLG",
+      "hard-hit/sweet-spot rates",
+      "extended family features"
+    ],
+    "season_eligibility": 25,
+    "total_eligibility": 100,
+    "weighting": "Same observed seasons for all baseline features. Continuous summaries PA-weighted; K/BB from actual source SO/BB/BF. Unobserved seasons are not imputed.",
+    "whiff": "Only raw pitch-type whiff data retained; no overall whiff rate constructed."
+  },
+  "counts": {
+    "registry": 2474,
+    "eligible player-seasons": 7026,
+    "total-workload pitchers": 1638,
+    "primary coverage sample": 1305,
+    "extended coverage sample": 1272
+  }
+}

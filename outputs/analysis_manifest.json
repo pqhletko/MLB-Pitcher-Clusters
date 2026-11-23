@@ -1,0 +1,94 @@
+{
+  "source_build": "regular-season-coverage95-2026-11-22",
+  "seed": 20261122,
+  "versions": {
+    "python": "3.11.5",
+    "numpy": "2.4.6",
+    "pandas": "3.1.1",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.1",
+    "seaborn": "0.13.2",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0"
+  },
+  "n_primary": 1305,
+  "feature_sets": {
+    "arsenal": [
+      "usage_FF",
+      "usage_SI",
+      "usage_FC",
+      "usage_SL",
+      "usage_ST",
+      "usage_CU",
+      "usage_CH",
+      "usage_FS",
+      "usage_other",
+      "arsenal_entropy",
+      "velo_avg",
+      "spin_avg"
+    ],
+    "results": [
+      "res_k_percent",
+      "res_bb_percent",
+      "res_est_woba",
+      "res_avg_hit_speed",
+      "res_brl_percent"
+    ],
+    "combined": [
+      "usage_FF",
+      "usage_SI",
+      "usage_FC",
+      "usage_SL",
+      "usage_ST",
+      "usage_CU",
+      "usage_CH",
+      "usage_FS",
+      "usage_other",
+      "arsenal_entropy",
+      "velo_avg",
+      "spin_avg",
+      "res_k_percent",
+      "res_bb_percent",
+      "res_est_woba",
+      "res_avg_hit_speed",
+      "res_brl_percent"
+    ]
+  },
+  "k_range": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "detail_k": 4,
+  "stability_k": [
+    2,
+    4,
+    6
+  ],
+  "stability_pairs": 20,
+  "pca_variance": 0.9,
+  "baseline_kmeans_starts": 30,
+  "baseline_gmm_starts": 20,
+  "resampling_kmeans_starts": 10,
+  "resampling_gmm_starts": 5,
+  "gmm_reg_covar": 0.0001,
+  "nonconverged_fits": 0,
+  "total_fits": 909,
+  "input_sha256": {
+    "pitcher_features_core_complete.csv": "5248ba28f92a93f4ac7f15df89268505044fd9983ba87010f7c7402a51171574",
+    "pitcher_features_strict_complete.csv": "3dbe89918c5bf95a9218911c36e6b17672f27be686705bbdbefdd7bc983683af",
+    "pitcher_features_extended_complete.csv": "adecc90a33e1888693a61657f14e39e62ce370b1fdd10df8a99445fe24bdcd22",
+    "pitcher_features.csv": "52c87cb4157878ae5138b92a95b55eb4296a7383642a86958eb2b90f0a9639ae",
+    "pitcher_statcast_seasons.csv": "6b8ae04a1ebefd1ee0069362ffa0c1132541d965d771e8bf993097be2a9ad2c2",
+    "pitcher_feature_sets.json": "bb75898bdddff2f5e438cfa62a725dab2ceddbab312c8dde57ffd113d20bf5ec",
+    "run_manifest.json": "81f7504a4c8c8e90dc99238511c7a3956fbc9f1bf812146605673db175de41ee"
+  }
+}

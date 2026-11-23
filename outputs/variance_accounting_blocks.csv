@@ -1,0 +1,13 @@
+representation,method,block,eta_squared
+arsenal,gmm,arsenal,0.14541355793579955
+arsenal,gmm,results,0.010266160397955127
+arsenal,kmeans,arsenal,0.27592729072728545
+arsenal,kmeans,results,0.053258940743050695
+combined,gmm,arsenal,0.17580704273879985
+combined,gmm,results,0.009377123404316814
+combined,kmeans,arsenal,0.2299654782664733
+combined,kmeans,results,0.21823399251699588
+results,gmm,arsenal,0.023594040724750753
+results,gmm,results,0.3846561271191463
+results,kmeans,arsenal,0.0444975123000764
+results,kmeans,results,0.43895795886565897

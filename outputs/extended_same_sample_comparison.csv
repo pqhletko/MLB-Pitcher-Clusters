@@ -1,0 +1,5 @@
+representation,method,n,ari_core_vs_extended_same_sample
+arsenal,kmeans,1272,0.4255770172163191
+arsenal,gmm,1272,0.5868461331937413
+combined,kmeans,1272,0.5902020408016925
+combined,gmm,1272,0.8061132558380937

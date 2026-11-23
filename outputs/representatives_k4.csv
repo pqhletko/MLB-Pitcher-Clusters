@@ -1,0 +1,25 @@
+representation,method,cluster,n,representative,nearest_three,strongest_deviations,median_observed_PA,mean_GS_share
+arsenal,kmeans,0,574,DL Hall,DL Hall; Nick Kingham; Carson Fulmer,arsenal_entropy: +0.62 SD; usage_SL: -0.55 SD; usage_FC: +0.44 SD,799.5,0.4766203687327536
+arsenal,kmeans,1,452,Jon Gray,Jon Gray; Antonio Senzatela; Eduardo Paredes,usage_FF: +0.84 SD; usage_SI: -0.67 SD; arsenal_entropy: -0.67 SD,635.5,0.22670818455622563
+arsenal,kmeans,2,269,Dario Agrazal,Dario Agrazal; Clayton Richard; J.C. Mej\xc3\xada,usage_SI: +1.57 SD; usage_FF: -1.27 SD; spin_avg: -0.41 SD,705.0,0.23718953172485507
+arsenal,kmeans,3,10,Mitch Bratt,Mitch Bratt; Julio Ur\xc3\xadas; Kyle Harrison,usage_other: +10.50 SD; usage_SL: -0.74 SD; usage_CU: -0.36 SD,1166.0,0.6771721188841298
+arsenal,gmm,0,424,Emerson Hancock,Emerson Hancock; Anthony Kay; Brock Stewart,usage_ST: +0.96 SD; arsenal_entropy: +0.42 SD; usage_SL: -0.38 SD,824.5,0.4009079778962713
+arsenal,gmm,1,61,Casey Mize,Casey Mize; H\xc3\xa9ctor Santiago; Sean Newcomb,usage_other: +2.23 SD; usage_FS: +2.02 SD; spin_avg: -0.75 SD,1006.0,0.3171510789547532
+arsenal,gmm,2,309,Derek Law,Derek Law; Matt Strahm; Chi Chi Gonz\xc3\xa1lez,usage_FC: +0.84 SD; usage_ST: -0.46 SD; usage_FS: -0.30 SD,960.0,0.4068950076159086
+arsenal,gmm,3,511,Robbie Ray,Robbie Ray; Humberto Mej\xc3\xada; J.A. Happ,usage_FC: -0.58 SD; usage_SL: +0.54 SD; usage_ST: -0.47 SD,491.0,0.2574679853175483
+results,kmeans,0,289,Caleb Ferguson,Caleb Ferguson; Danny Coulombe; Tony Sipp,res_avg_hit_speed: -1.09 SD; res_est_woba: -0.99 SD; res_brl_percent: -0.96 SD,732.0,0.19136913873646857
+results,kmeans,1,290,Max Castillo,Max Castillo; Roansy Contreras; Nick Tropeano,res_est_woba: +1.21 SD; res_brl_percent: +1.03 SD; res_avg_hit_speed: +0.96 SD,365.5,0.38892378180829873
+results,kmeans,2,321,Cristian Javier,Cristian Javier; Trevor Richards; Jeff Hoffman,res_k_percent: +0.91 SD; res_est_woba: -0.50 SD; res_avg_hit_speed: +0.30 SD,894.0,0.3136239728291033
+results,kmeans,3,405,Jake Arrieta,Jake Arrieta; Kyle Gibson; Michael Lorenzen,res_k_percent: -0.65 SD; res_bb_percent: -0.34 SD; res_brl_percent: -0.29 SD,827.0,0.43916302024062637
+results,gmm,0,267,Luis Garcia,Luis Garcia; Charlie Morton; Sonny Gray,res_k_percent: +1.16 SD; res_est_woba: -1.06 SD; res_bb_percent: -0.37 SD,1076.0,0.3141854719309543
+results,gmm,1,192,Jon Duplantier,Jon Duplantier; Carson Fulmer; Travis Lakins Sr.,res_est_woba: +1.30 SD; res_brl_percent: +1.02 SD; res_bb_percent: +0.97 SD,217.0,0.2925401985632344
+results,gmm,2,563,JT Brubaker,JT Brubaker; Mitch Keller; Beau Brieske,res_bb_percent: -0.37 SD; res_k_percent: -0.35 SD; res_est_woba: +0.30 SD,999.0,0.4803279418903422
+results,gmm,3,283,Ian Gibaut,Ian Gibaut; Landen Roupp; Carlos Mart\xc3\xadnez,res_brl_percent: -1.08 SD; res_avg_hit_speed: -0.80 SD; res_est_woba: -0.48 SD,498.0,0.12773154021510047
+combined,kmeans,0,375,Drew VerHagen,Drew VerHagen; Adrian Houser; Robert Gsellman,usage_SI: +1.14 SD; usage_FF: -1.12 SD; res_brl_percent: -0.69 SD,796.0,0.27414005532524405
+combined,kmeans,1,516,Nick Kingham,Nick Kingham; Heath Fillmyer; James Kaprielian,res_est_woba: +0.64 SD; res_brl_percent: +0.55 SD; arsenal_entropy: +0.50 SD,670.5,0.5055658329911814
+combined,kmeans,2,404,Jon Gray,Jon Gray; Carlos Rod\xc3\xb3n; H\xc3\xa9ctor Rond\xc3\xb3n,res_k_percent: +0.85 SD; usage_FF: +0.75 SD; arsenal_entropy: -0.70 SD,679.0,0.18856852607817925
+combined,kmeans,3,10,Mitch Bratt,Mitch Bratt; Julio Ur\xc3\xadas; Marcus Stroman,usage_other: +10.50 SD; usage_SL: -0.74 SD; usage_CU: -0.36 SD,1166.0,0.6771721188841298
+combined,gmm,0,592,Max Kranick,Max Kranick; Jon Gray; Anthony Banda,usage_FC: -0.56 SD; usage_SL: +0.53 SD; usage_ST: -0.46 SD,554.5,0.2858952606733888
+combined,gmm,1,498,Anthony Kay,Anthony Kay; Mitch Keller; Emerson Hancock,usage_FC: +0.69 SD; usage_SL: -0.62 SD; usage_ST: +0.59 SD,813.0,0.3877014800044813
+combined,gmm,2,175,Tyler Mahle,Tyler Mahle; Frankie Montas; Carmen Mlodzinski,usage_FS: +1.84 SD; usage_CH: -0.89 SD; spin_avg: -0.38 SD,843.0,0.39071512819456317
+combined,gmm,3,40,Sean Newcomb,Sean Newcomb; Peter Lambert; Jose Quintana,usage_other: +3.46 SD; usage_CH: +0.84 SD; usage_SL: -0.47 SD,968.5,0.39818543749788626

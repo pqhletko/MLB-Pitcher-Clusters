@@ -1,0 +1,8 @@
+player_id,pa,est_woba,est_ba,est_slg,xera,contact_BBE,avg_hit_speed,brl_percent,ev95percent,anglesweetspotpercent,usage_FF,usage_SI,usage_FC,usage_SL,usage_ST,usage_CU,usage_CH,usage_FS,usage_other,arsenal_entropy,mean_seasonal_arsenal_breadth,velo_avg,spin_avg,fb_share,fb_velo,fb_spin,velo_gap,fb_ivb,fb_abs_hb,brk_ivb,brk_abs_hb,qa_usage_valid,mlbam_id,name,BF,SO,BB,Season,qa_bf_matches_pa,BF_minus_savant_PA,qa_bf_compatible,qa_xera_review,qa_common_usable
+641853,115,0.323,0.229,0.388,4.63,63,89.9,11.1,33.3,39.7,0.0,0.629,0.0,0.0,0.0,0.0,0.0,0.0,0.371,0.6594857532902015,2.0,88.0866,2631.941,0.629,93.8,2383.0,15.399999999999991,16.0,13.0,,,True,641853,David McKay,115,34,17,2019,True,0,True,False,True
+680692,29,0.593,0.417,0.967,23.76,22,,,,,0.54,0.0,0.0,0.204,0.0,0.095,0.161,0.0,0.0,1.1746870574118742,4.0,86.6038,2223.623,0.54,92.3,2313.0,12.38304347826086,17.2,10.9,3.7200668896321067,0.8000000000000002,True,680692,Jonathan Stiever,29,3,4,2020,True,0,True,True,False
+600887,25,0.583,0.473,0.789,22.33,15,,,,,,,,,,,,,,,,,,,,,,,,,,False,600887,Miguel Del Pozo,25,2,8,2020,True,0,True,True,False
+641853,32,0.439,0.322,0.602,8.99,25,91.1,16.0,52.0,40.0,,,,,,,,,,,,,,,,,,,,,,False,641853,David McKay,32,3,4,2022,True,0,True,False,False
+642165,27,0.652,0.501,1.033,33.31,25,88.1,24.0,44.0,56.0,,,,,,,,,,,,,,,,,,,,,,False,642165,Josh VanMeter,27,0,2,2022,True,0,True,True,False
+571912,25,0.596,0.467,1.022,24.05,25,93.4,20.0,48.0,60.0,,,,,,,,,,,,,,,,,,,,,,False,571912,Luke Maile,25,0,0,2023,True,0,True,True,False
+686475,33,0.583,0.501,0.827,22.3,29,91.3,13.8,44.8,55.2,,,,,,,,,,,,,,,,,,,,,,False,686475,Tyler Tolbert,33,0,3,2026,True,0,True,True,False
